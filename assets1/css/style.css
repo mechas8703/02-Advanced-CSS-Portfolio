@@ -51,15 +51,16 @@ a {
     width: 100%; 
     background-image: url('hero\ background.jpg') ;
     background-size: cover;
-    background-position: center;
-  
+      
 }
 
-p {
-    display: inline-block;
+.hero h2 {
+    display: inline-flex;
     font-size: 48px;
     margin-left: 70px;
     background-color:rgb(166, 222, 223);
     color: rgb(41, 69, 95); 
+    float: right;
+    margin-top: 150px;
 
 }
