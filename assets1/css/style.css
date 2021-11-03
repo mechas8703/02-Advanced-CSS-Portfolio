@@ -87,10 +87,19 @@ min-height: 500px;
 
 aside {
 display: 0 0 200px;
-background-color: skyblue;
-float: left;
-min-width: 15%;
+background-color: rgb(240, 244, 247);
+min-width:  15%;
+font-size: 50px;
+font-weight: 700;
+color:rgb(34, 82, 138)
 
+}
+
+.about-me {
+border-right: solid; 
+border-color: steelblue;
+border-width: 10px;
+background-color: teal;
 }
 
 footer {
