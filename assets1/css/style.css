@@ -3,6 +3,64 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
+    
+}
+
+header {
+    font-family: calibri;
+    background-color: #46575f;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 70px;
+    background-color: rgb(166, 222, 223);
+    color: rgb(41, 69, 95); 
+     
+       
+}
+
+header div {
+    padding-top: 20px;
+    margin-right: 60px;
+    float: right;
+    font-family: arial;
+    font-size: 30px;
+   }
+
+div ul li {
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 2%;
+  }
+
+a {
+    color: rgb(166, 222, 223);
+  
+}
+
+.hero {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: lime;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+p {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 70px;
+    background-color: rgb(166, 222, 223);
+    color: rgb(41, 69, 95); 
+
 }
