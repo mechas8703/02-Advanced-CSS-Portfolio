@@ -20,11 +20,11 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
-    margin-left: 70px;
     background-color: rgb(166, 222, 223);
     color: rgb(41, 69, 95); 
-     
-       
+    padding-left: 100px;
+    padding-right: 15px;
+            
 }
 
 header div {
@@ -48,9 +48,8 @@ a {
 
 .hero {
     height: 250px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-color: lime;
+    width: 100%; 
+    background-image: url('hero\ background.jpg') ;
     background-size: cover;
     background-position: center;
   
@@ -60,7 +59,7 @@ p {
     display: inline-block;
     font-size: 48px;
     margin-left: 70px;
-    background-color: rgb(166, 222, 223);
+    background-color:rgb(166, 222, 223);
     color: rgb(41, 69, 95); 
 
 }
