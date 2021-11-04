@@ -110,10 +110,16 @@ margin: 30px;
 
 }
 
-.about-me {
-    background-color: tomato;
-    padding: 25%;
+.container h3 {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-right: 10px solid blue;
+
 }
+
+
+
 
 footer {
     background-color:rgb(8, 75, 39) ;
