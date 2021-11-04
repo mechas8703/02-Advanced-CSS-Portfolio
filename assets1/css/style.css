@@ -23,7 +23,7 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 60px;
     background-color: rgb(166, 222, 223);
     color: rgb(41, 69, 95); 
     padding-left: 100px;
@@ -83,46 +83,106 @@ a:hover {
 
 }
 
-main {
-display: flex;
-flex-flow: row wrap;
-background-color: rgb(234, 247, 240);
-background-size: cover;
-min-height: 500px;
+ main { 
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(234, 247, 240);
+    background-size: cover;
+    min-height: 500px;
 
 }
 
 .container {
-display: flex;
-min-width:  15%;
-font-size: 50px;
-font-weight: 700;
-color:rgb(34, 82, 138);
-flex-direction: column;
-text-align: right;
-
+    position: relative;
+    clear: both;
+    display: inline-flex;
+    background-color: crimson;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(34, 82, 138) ;
+    
 }
 
-.container ul {
-padding: 0;
-margin: 15px;
-
+#left {
+    float: left;
+    background-color: chartreuse;
+    width: 20%;
+    
 }
 
-.container ul li {
-list-style: none;
-float: right;
-width: 24%;
-height: 300px;
-
+#left div {
+    width: 50px;
+    display: flex;
+    text-align: right;
+    
 }
 
-.container h3 {
+#about-me {
     flex-direction: column;
     border-right: 5px solid rgb(34, 82, 138);
     flex-wrap: wrap;
-    margin: 20px
+    margin: 20px;
+    background-color: cyan;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 50px;
+    padding-bottom: 60px;
+    
+}    
 
+#work {
+    flex-direction: inline;
+    border-right: 5px solid rgb(34, 82, 138);
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: cyan;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 50px;
+    padding-bottom: 300px;
+
+} 
+
+#contact-me {
+    flex-direction: inline;
+    border-right: 5px solid rgb(34, 82, 138);
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: cyan;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 50px;
+    padding-bottom: 50px;
+
+} 
+
+#right {
+    float: right;
+    background-color: coral;
+    display: block;
+    width: 100%;
+}
+
+.container2 {
+    position: relative;
+    clear: both;
+    display: inline-flex;
+    background-color: crimson;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(34, 82, 138) ;
+    font-size: 50px;
+    font
+}
+
+.container h3 {
+    flex-direction: inline;
+    border-right: 5px solid rgb(34, 82, 138);
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: cyan;
+    padding-right: 10px;
+ 
 }
 
 footer {
@@ -130,12 +190,7 @@ footer {
     min-height: 50px;
 }
 
-.container2 {
-    background-color: slateblue;
-    background-size: cover;
-    float: right;
-    min-width: 80%
-}
+
 
 @media screen and (max-with:1200px) {
     .container ul li {
