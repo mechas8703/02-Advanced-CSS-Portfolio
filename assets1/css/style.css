@@ -175,25 +175,25 @@ a:hover {
     padding-bottom: 30px;
     padding-top: 10px;
     overflow: auto;
+    max-height: 170px;
     
 }    
     
 .image {
-    flex: 1 0 200;
+    display: flex;
+    flex: 2 1 200px;
     position: relative;
-    /* display: inline-flexbox; */
-    /* flex-wrap: wrap; */
     padding: 2px;
-    /* text-align: left; */
-    /* font-size: 20px; */
-    
+    max-height: 300px;
+        
 } 
 
 .image1 {      
-    height: 400px;    
+    max-height: 200px;    
     width: 100%;
     margin: 10px;
-    border: rgb(166, 222, 223) 5px solid 
+    border: rgb(166, 222, 223) 5px solid; 
+    flex: 2 1 200px;
     
 }
 
@@ -253,15 +253,15 @@ a:hover {
 }
 
 .image2 {
-    flex: 1;
     height: 200px;
     width: 890px;
     max-width: 40%;
     border: rgb(166, 222, 223) 5px solid ;
+    flex: 2 1 200px;
 }
 
 .image3 {
-    flex: 1;
+    flex: 2 1 200px;
     height: 200px;
     width: 890px;
     max-width: 40%;
@@ -270,7 +270,7 @@ a:hover {
 }
 
 .image4 {
-    flex: 1;
+    flex: 2 1 200px;
     height: 200px;
     width: 890px;
     max-width: 40%;
@@ -279,7 +279,7 @@ a:hover {
 }
 
 .image5 {
-    flex: 1;
+    flex: 2 1 200px;;
     height: 200px;
     width: 890px;
     max-width: 40%;
