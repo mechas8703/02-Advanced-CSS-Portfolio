@@ -128,7 +128,7 @@ a:hover {
     margin: 20px;
     padding-right: 10px;
     text-align: right;   
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     overflow: auto;
     
 }    
@@ -141,7 +141,7 @@ a:hover {
     padding-right: 10px;
     text-align: right;
     font-size: 50px;
-    padding-bottom: 300px;
+    padding-bottom: 800px;
     overflow: auto;
 
 } 
@@ -182,14 +182,54 @@ a:hover {
     flex-shrink: 2;
     flex-wrap: wrap;
     margin: 20px;
-    background-color: cyan;
     padding-right: 10px;
     text-align: left;
     font-size: 50px;
-    padding-bottom: 300px;
+    padding-bottom: auto;
     overflow: auto;
 
 } 
+
+.image1 {
+    height: 400px;
+    width: 1800px;
+    max-width: 100%;
+    display: block;
+    border: rgb(166, 222, 223) 5px solid ;
+    margin: 10px;
+    
+}
+
+.image2 {
+    height: 200px;
+    width: 890px;
+    max-width: 49.5%;
+    border: rgb(166, 222, 223) 5px solid ;
+}
+
+.image3 {
+    height: 200px;
+    width: 890px;
+    max-width: 49.5%;
+    border: rgb(166, 222, 223) 5px solid ;
+    
+}
+
+.image4 {
+    height: 200px;
+    width: 890px;
+    max-width: 49.5%;
+    border: rgb(166, 222, 223) 5px solid ;
+            
+}
+
+.image5 {
+    height: 200px;
+    width: 890px;
+    max-width: 49.5%;
+    border: rgb(166, 222, 223) 5px solid ;
+    
+}
 
 .contact-me2 {
     display: flexbox;
