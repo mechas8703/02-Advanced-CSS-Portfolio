@@ -27,4 +27,8 @@
   ol, ul {
     list-style: none;
   }
+
+  article, aside, footer, nav, section {
+    display: block;
+  }
   
