@@ -298,8 +298,7 @@ a:hover {
     overflow: auto;
     justify-content: center;
     padding-top: 40px;
-    float: right;
-    
+      
 } 
 
 .contact-me2 a {
@@ -328,14 +327,20 @@ a:hover {
     font-size: 14px;
 }
 
-@media screen and (min-with:300px) and (max-with:500px) {
-    #abou.me {
-       font-size: 10px;
+@media screen and (max-with: 992px) {
+    .content {
+       width: 100%;
        
 }}
 
-@media screen and (min-with:500px) and (max-with:800px) {
-    .container h1 {
-       font-size: 20px;
+@media screen and (max-with: 768px) {
+    .content {
+       width: 100%;
+       
+}}
+
+@media screen and (max-with: 600px) {
+    .content {
+       width: 100%;
        
 }}
