@@ -1,4 +1,104 @@
-* {
+@font-face {
+    font-family: Gloss and Bloom;
+    src: url(../css/Gloss_And_Bloom.ttf)
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #222;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+body{ padding-top: 20px;}
+
+/* Navbar */
+.navbar {
+    height: 100px;    
+}
+
+.navbar-nav li {
+    padding-right:50px;
+}
+
+.nav-link {
+    font-size: 1.2em !important;
+}
+
+.nav-link:hover {
+    color:gray !important;
+}
+
+.bg-light {
+    background-color: #000!important;
+} 
+
+.navbar-light .navbar-toggler {
+    border-color: #e9ecef;
+    background-color: #e9ecef;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    font-family: Gloss and Bloom;
+    letter-spacing: 3px;
+}
+
+#MCG {
+    font-family: Gloss and Bloom;
+    color: white;
+    font-size: xx-large; 
+    padding-left: 50px;
+    padding-top: 1rem;    
+}
+
+/* Carousel */
+
+#carouselcontainer {
+    padding-top: 60px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 350%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.display-2 {
+    font-family: Gloss and Bloom;
+}
+
+#button2 {
+    background-color:rgba(108, 109, 112, 0.842);
+}
+
+#button3 {
+    background-color: rgba(108, 109, 112, 0.842);    
+}
+
+.footer {
+    color: white;
+    font-family: Gloss and Bloom;
+    /* font-size: xx-large; */
+    font-size: small;
+    text-align: center;
+
+}
+
+
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -245,7 +345,7 @@ a:hover {
 .image2 {
     height: 150px;
     width: 510px;
-    /* width: 45%; */
+    
     border: rgb(166, 222, 223) 5px solid ;
            
 }
@@ -253,7 +353,7 @@ a:hover {
 .image3 {
     height: 150px;
     width: 510px;
-    /* width: 45%; */
+  
     border: rgb(166, 222, 223) 5px solid ;
        
 }
@@ -261,7 +361,7 @@ a:hover {
 .image4 {
     height: 150px;
     width: 510px;
-    /* width: 45%; */
+   
     border: rgb(166, 222, 223) 5px solid ;
             
 }
@@ -269,7 +369,7 @@ a:hover {
 .image5 {
     height: 150px;
     width: 510px;
-    /* width: 45%; */
+ 
     border: rgb(166, 222, 223) 5px solid ;
     
 }
@@ -329,4 +429,4 @@ a:hover {
     .content {
        width: 100%;
        
-}}
+}} *
