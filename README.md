@@ -12,5 +12,5 @@ If you are opting out of career services, this is still a required assignment. P
 
 ## * Maria M. Cardona Portfolio
 ![Portfolio](./assets1/css/Portfolio1.PNG)
-![AboutMe](./assets1/css/Portfolio1.PNG)
-![Projects](./assets1/css/Portfolio1.PNG)
+![AboutMe](./assets1/css/Portfolio2.PNG)
+![Projects](./assets1/css/Portfolio3.PNG)
