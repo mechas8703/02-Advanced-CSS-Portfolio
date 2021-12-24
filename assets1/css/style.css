@@ -197,32 +197,6 @@ hr {
 
 }
 
-@media (max-width: 768px) {
-    #aboutmep {
-        margin-top: 20px;
-    }
-    #portfolio {
-        height: 100%;
-    }
-    .card {
-        margin-left: 170px;
-    }
-    #contact {
-        height: 100%;
-    }
-    .carousel-caption {
-        top: 100%;
-        transform: translateY(-240px);
-    }
-    .carousel-caption h1 {
-        font-size: 300%;
-    }
-    .carousel-caption .btn {
-        font-size: 95%;
-        padding: 8px 14px;
-    }
-    
-
 @media (max-width: 640px) {
     .carousel-caption {
         top: 50%;
@@ -254,14 +228,4 @@ hr {
     .card {
         margin-left: 0;
     }
-}
-
-@media (max-width: 400px) {
-    .carousel-caption h1 {
-        font-size: 150%;
-    }
-    #responsive {
-        font-size: 130%;
-    }
-
-}
+} 
