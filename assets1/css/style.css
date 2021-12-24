@@ -151,10 +151,14 @@ hr {
     color: white;
     text-align: center;
     letter-spacing: 2px;    
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
 }
 
 #boton { 
     margin-left: 40px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
 }
 
 /* footer */
