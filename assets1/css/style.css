@@ -3,7 +3,7 @@
     src: url(../css/Gloss_And_Bloom.ttf)
 }
 
-  body {
+body {
     font-family: sans-serif;
     display: grid;
     height: 100vh;
