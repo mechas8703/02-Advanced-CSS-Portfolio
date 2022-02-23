@@ -1,11 +1,11 @@
 $(document).ready( function() {
 
     // When site loaded, load the Popupbox First
-    new popup($("#popup_box"),$("#container")).load();
+    new popup($("#popup_box"),$("#body")).load();
     
 });
 
-function popup(popup,container) {
+function popup(popup,body) {
     
     var thisPopup = this,            
         timer,
@@ -14,13 +14,13 @@ function popup(popup,container) {
     
     thisPopup.load = function() {            
         
-        container.animate({
+        body.animate({
             "opacity": "0.3"  
         },250, function() {            
             popup.fadeIn("250");            
         });    
         
-        container.off("click").on("click", function() {
+        body.off("click").on("click", function() {
             thisPopup.unload();
         }); 
         
@@ -43,7 +43,7 @@ function popup(popup,container) {
         clearInterval(timer); 
 
         popup.fadeOut("250", function(){
-            container.animate({
+            body.animate({
                 "opacity": "1"  
             },250);  
         });
