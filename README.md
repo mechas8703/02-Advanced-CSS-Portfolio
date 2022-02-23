@@ -1,4 +1,4 @@
-# 08 Project 1: Professional Materials
+# 16 Project 2: Professional Materials
 Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer-competitive.
 If you are opting out of career services, this is still a required assignment. Part of being a web developer means being a part of a community. Having a place to share your projects is necessary if you're applying for jobs, but it's also critical on your journey as a developer.
 
